@@ -1,0 +1,314 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x:hidden;
+}
+
+.container_custom {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.headerGridViewStyle {
+    padding: 8px 38px;
+    font-size: 18px;
+    font-weight:bold;
+    color: #fff;
+    cursor: pointer;
+    background-color: #555;
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+    footer .contact {
+        border-left: 1px dashed white;
+        border-right: 1px dashed white;
+        padding: 30px;
+    }
+
+    footer .menuFooter li {
+        margin: 15px 0;
+    }
+
+.giftAndDiscountPrice {
+    padding: 45px 0;
+    background: url('../Images/movement-gears-background.jpg') center center no-repeat;
+    width: 100%;
+    background-size: cover;
+    color: white;
+}
+
+    .giftAndDiscountPrice h3 {
+        font-size: 20px;
+    }
+
+    .giftAndDiscountPrice i {
+        font-size: 36px;
+    }
+
+.container-banner {
+    overflow: hidden;
+}
+
+.banner .banner1 {
+    padding: 120px 0;
+    background: url('../Images/img1_2e549330-1e72-42fe-b909-7caec5ab9eaa.jpg') center center no-repeat;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    transition: all .5s;
+}
+
+.banner .banner2 {
+    padding: 120px 0;
+    background: url('../Images/img2_0b6fbb1b-4374-4875-a7ff-93f41dce689e.jpg') center center no-repeat;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    transition: all .5s;
+}
+
+.banner .title-banner {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.banner .banner1:hover, .banner .banner2:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.img-info {
+    overflow: hidden;
+}
+
+.container-info img {
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.more_infomation img:hover {
+    transform: scale(1.1);
+}
+
+.formRegister {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.product {
+    border: 3px solid transparent;
+}
+
+    .product:hover {
+        border: 1px dotted #000;
+    }
+
+    .product a {
+        color: black;
+        display:block;
+        height:100%;
+        width:100%;
+    }
+
+        .product a:hover {
+            text-decoration: none;
+        }
+
+    .product:hover .text-color {
+        color: red;
+    }
+
+    .product img {
+        transition: all .5s;
+    }
+
+    .product:hover img {
+        transform: scale(0.9);
+    }
+
+.fs-18 {
+    font-size: 15px;
+}
+
+.title-product {
+    color: #3c3451;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 16px;
+    padding: 25px 0;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+}
+
+.banner1 button, .banner2 button {
+    color: #e2ba48;
+    padding: 5px 25px;
+    outline: none;
+    background: transparent;
+    border: 2px solid #e2ba48;
+    cursor: pointer;
+    transition: all .5s;
+    font-weight: bold;
+}
+
+    .banner1 button:hover, .banner2 button:hover {
+        color: #fff;
+        background: #e2ba48;
+        border: 2px solid transparent;
+    }
+
+.title-information {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 35px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.menuFooter li:hover {
+    color: #e2ba48;
+    cursor: pointer;
+}
+
+.more-contact p {
+    margin: 25px 0;
+}
+
+.contact p, .more-contact p {
+    color: #a4a4a4;
+    font-size: 14px;
+    margin-bottom: 0.8em;
+}
+
+.contact input {
+    border-radius: 30px;
+    padding: 15px 30px;
+    width: 75%;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+    .contact input:focus {
+        border: none;
+        outline: none;
+    }
+
+.backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+    .backToTop img {
+        width: 45px;
+        height: 45px;
+    }
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hide-menubar {
+    position: fixed;
+    top: -400px;
+    width: 100%;
+    transition: top 0.5s;
+    background-color: black;
+    z-index: 12345;
+}
+
+header {
+    background-color:black;
+}
+
+.navbar-nav li a {
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgba(255,255,255,0.8);
+    transition: all .5s;
+}
+span.nameUser {
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgba(255,255,255,0.8);
+    transition: all .5s;
+}
+.navbar-nav li:hover a {
+    color: #e2ba48;
+}
+.detail-product {
+    text-shadow: 0 0 2px black;
+}
+#ContentPlaceHolder1_GridView1 td:hover {
+    background-color: #e2ba48;
+}
+#ContentPlaceHolder1_GridView1 td:hover a{
+    color:#fff;
+    font-weight:bold;
+    border-left:5px solid #fff;
+}
+#ContentPlaceHolder1_GridView1 a {
+    display:block;
+    width:100%;
+    height: 100%;
+    padding: 8px 35px;
+    color:#000;
+    font-weight:bold;
+    text-shadow: 0 0 1px black;
+    border-left:5px solid transparent;
+}
+#ContentPlaceHolder1_GridView1 a:hover {
+    text-decoration:none;
+}
+.styleText span{
+  display:block;
+  white-space: nowrap;
+  width:200px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 auto;
+}
+.item a {
+    color:black;
+}
+.item img {
+    transition: all .5s;
+}
+.item:hover img {
+    transform:scale(0.9);
+}
+.item:hover a {
+    text-decoration:none;
+    color:#e2ba48;
+}
+.step-by-step {
+    color: #3c3451;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    padding: 8px 0;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+}
+
