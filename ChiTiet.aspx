@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="container_custom">
         <div class="text-right">
-            <asp:Button ID="btnXemGiohang" runat="server" Text="Giỏ Hàng" CssClass="btn btn-danger" OnClick="btnXemGiohang_Click" />
+            <asp:Button ID="btnXemGiohang" runat="server" Text="Giỏ Hàng hahahahahaha. Day la bug text" CssClass="btn btn-danger" OnClick="btnXemGiohang_Click" />
         </div>
         <div class="row">
             <div class="col-3">
